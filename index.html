@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktopnav">
+        <div class="logo">Ayan Ghosh</div>
+        <div>
+        <ul class="navlinks">
+         <li><a href="#about">About</a></li>
+         <li><a href="#experience">Experience</a></li>
+         <li><a href="#certifications">Certifications</a></li>
+         <li><a href="#contact">Contact</a></li>
+        </div>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ayan Ghosh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about" onclick="togglemenu()">About</a></li>
+                <li><a href="experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="certifications" onclick="togglemenu()">Certifications</a></li>
+                <li><a href="contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="./Images/MainPic.png" alt="Ayan Pfp" srcset="">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello I'm</p>
+            <h1 class="title">Ayan Ghosh</h1>
+            <p class="section-text-p2">RPA Developer</p>
+            <div class="btn-container">
+               <button class="btn-btn-color-2" onclick="window.open('./Assets/Profile.pdf')"><span class="btns">Download CV</span> </button>
+               <button class="btn-btn-color-1" onclick="location.href = './#contact'"><span class="btns1">Contact Info</span></button>
+            </div>
+        <div id="social-container">
+            <img src="./Images/LI-In-Bug.png" class="icon" onclick="location.href = 'https://linkedin.com/in/ayanghosh05'" alt="" srcset="">
+            <img src="./Images/github-mark.png" class="icon" onclick="location.href = 'https://github.com'" alt="" srcset=""> 
+        </div>
+        </div>      
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section-pic-container">
+            <img
+              src="./Images/Coding.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./Images/verify.png"
+                  alt="Experience icon"
+                  class="Experience icon"
+                />
+                <h3 class="Experience">Experience</h3>
+                <p class="Experience">2.70+ years<br>DotNet Developer</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./Images/diploma.png"
+                  alt="Experience icon"
+                  class="Experience icon"
+                />
+                <h3 class="Experience">Education</h3>
+                <p class="Experience">B.Sc Hons.<br>Computer Science</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./Images/Pursue.png"
+                  alt="Experience icon"
+                  class="Experience icon"
+                />
+                <h3 class="Experience">Academic pursuit</h3>
+                <p class="Experience">MCA Online<br>Pursuing</p>
+              </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Welcome to my portfolio! I am a Computer Science graduate currently working in IT as an RPA developer. With expertise in programming languages such as C, C#, and Python, I enjoy exploring new technologies and implementing innovative solutions. I have a passion for editing photos and videos, using my creativity to bring out the best in visual content. I also have a keen interest in web development, constantly seeking to enhance my skills in this area. Through my portfolio, I aim to showcase my diverse talents and experiences in the field of technology.
+                </p>
+                <img
+                src="./Images/Arrow.png"
+                alt="Arrow icon"
+                class="icon arrow"
+                onclick="location.href='./#experience'"
+              />
+        </section>
+        <section id="experience">
+          <p class="section-text-p1">Explore My</p>
+          <h1 class="title">Experience</h1>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Core languages</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>C language</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Python</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Java</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="details-container">
+                <h2 class="experience-sub-title">Core Technical</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>DotNet</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>RPA</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>C#</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+          
+              <div class="details-container">
+                <h2 class="experience-sub-title">Management skills</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Team Collaboration</h3>
+                      <div class="hover-to-icon"> 
+                      <p>Experienced</p>
+                      <img src="./Images/Export.png" onclick="window.open('./Assets/team_management.pdf')" class="exportbtn" alt="Download Icon">
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Decison making</h3>
+                      <div class="hover-to-icon"> 
+                      <p>Experienced</p>
+                      <img src="./Images/Export.png" onclick="window.open('./Assets/decision_making.pdf')" class="exportbtn" alt="Download Icon">
+                      </div>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./Images/verify.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Innovation and creativity</h3>
+                      <div class="hover-to-icon">
+                      <p class="getcerticate">Harvard Certification</p>
+                      <img src="./Images/Export.png" onclick="window.open('./Assets/innovation_and_creativity.pdf')" class="exportbtn" alt="Download Icon">
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+          <img
+            src="./Images/Arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#certifications'"
+          />
+        </section>
+
+        <section id="certifications">
+          <p class="section-text-p1">Review My</p>
+          <h1 class="title">Certifications</h1>
+          <div class="content-container">
+            <!-- Carousel Wrapper -->
+            <div class="carousel-wrapper">
+              <div class="carousel-container">
+                <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="carousel-slide">
+                  <img src="./Assets/badge.png" alt="Certification Badge 1" class="carousel-item">
+                  <img src="./Assets/hmm_team_management_badge.png" alt="Certification Badge 2" class="carousel-item">
+                  <img src="./Assets/hmm_presentation_skills_badge.png" alt="Certification Badge 3" class="carousel-item">
+                  <img src="./Assets/hmm_performance_measurement_badge.png" alt="Certification Badge 4" class="carousel-item">
+                </div>
+                <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
+                <div class="carousel-info" id="carousel-info">
+                  <p id="info-text">Innovation and creativity</p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- PDF Viewer Wrapper -->
+            <div class="pdf-viewer-container">
+              <button class="pdf-nav-button" onclick="changePDF(-1)">&#10094; Previous</button>
+              <iframe id="pdf-frame" src="./Assets/AWS1.pdf" title="PDF Viewer" class="pdf-frame"></iframe>
+              <button class="pdf-nav-button" onclick="changePDF(1)">Next &#10095;</button>
+            </div>
+          </div>        
+        </section>
+        <section id="contact" class="contact-section">
+          <h1 class="title">Contact Me</h1>
+          <div class="container">            
+              <p class="contactpara">If you have any questions or want to collaborate, feel free to reach out!</p>
+              <form action="your-email-handler-url" method="POST" class="contact-form">
+                  <div class="form-group">
+                      <input type="text" id="name" name="name" required placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                      <input type="email" id="email" name="email" required placeholder="Your Email">
+                  </div>
+                  <div class="form-group">
+                      <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                  </div>
+                  <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+          </div>
+      </section>      
+          
+      </section>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
