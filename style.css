@@ -59,6 +59,7 @@ a:hover{
 .logo:hover{
   cursor: default;
 }
+
 /*Hamburger Menu*/
 #hamburger-nav{
   display: none;
@@ -562,11 +563,50 @@ article .icon {
   color: #d9e4e8;
   transform: translateY(-3px);
 }
+/* Footer */
+/* Footer Styling */
+.footer {
+  background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent black background */
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  backdrop-filter: blur(5px); /* Optional: Adds a blurred effect behind the footer */
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #000; /* Black text color */
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* Spacing between icons */
+  margin-bottom: 10px; /* Space before credit text */
+}
+
+.footer-socials a i {
+  font-size: 20px; /* Smaller icon size */
+  color: inherit; /* Keep the icon's original color */
+}
+
+.credit {
+  font-size: 12px; /* Smaller font size */
+  color: #000; /* Black text */
+  opacity: 0.7; /* Slight transparency for a subtle look */
+  font-weight: 300; /* Light font for a classy appearance */
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .contact-section {
       padding: 15px;
+  }
+
+    section{
+      height: 10vh;
   }
 
   .form-group input,
@@ -757,6 +797,8 @@ article .icon {
     background-color: black;
     transition: all 0.3s ease-in-out;
   }
+
+  
   /* About section*/
 
   .section-pic-container {
